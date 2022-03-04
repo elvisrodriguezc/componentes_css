@@ -170,4 +170,28 @@
     color: rgb(95, 29, 32);
 }
 
+.menu {
+    padding:25px 0;
+}
 
+.card {
+    height: fit-content;
+    width: 300px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    align-self: center;
+    flex: 1 1 1;
+}
+
+.center {
+    text-align: center;
+}
