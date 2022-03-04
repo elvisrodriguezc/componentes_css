@@ -1,0 +1,112 @@
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-white {
+    background-color: white;
+}
+
+.btn-lite {
+    background-color: none;
+}
+
+.btn-primary {
+    background-color:aquamarine;
+}
+
+.btn-dark {
+    background-color: #333;
+    color: white;
+}
+
+.btn-black {
+    background-color:black;
+    color: white;
+}
+
+.btn-text {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+}
+
+
+.label {
+    border: none;
+    border-radius: 5px;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.label-primary{
+    background-color: rgb(214, 250, 247);
+    color: green;
+    text-decoration: bold;
+}
+
+.label-link{
+    background-color: rgb(241, 231, 231);
+    color: rgb(54, 83, 128);
+    text-decoration: bold;
+}
+
+.label-info{
+    background-color: rgb(201, 221, 245);
+    color: rgb(81, 143, 163);
+    text-decoration: bold;
+}
+
+.label-warning{
+    background-color: rgb(201, 245, 234);
+    color: rgb(61, 117, 94);
+    text-decoration: bold;
+}
+
+.label-danger{
+    background-color: rgb(250, 212, 216);
+    color: rgb(117, 61, 61);
+    text-decoration: bold;
+}
+
+.label-white{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.label-ligth{
+    background-color: rgb(245, 230, 230);
+    font-family: sans-serif;
+}
+
+.label-dark{
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.label-black{
+    background-color: #000;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.label-text{
+    background-color: transparent;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
