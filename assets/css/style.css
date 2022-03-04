@@ -1,0 +1,40 @@
+:root{
+    --blanco : #fff;
+    --negro : rgb(0, 0, 0);
+    --gris : grey;
+    --grey-light: rgb(243, 240, 240);
+    --primario: green;
+    --secundario: rgb(68, 255, 68);
+    --fuente-principal: arial;
+    --fuente-secundaria: arial;
+    --parrafo: 2rem ;
+    --nav: 3rem;
+}
+html{
+    font-size: 65.5%;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+*:after, *:before{
+    box-sizing: inherit;
+}
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+    font-family: var(--fuente-principal);
+}
+main{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
