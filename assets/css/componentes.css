@@ -1,4 +1,19 @@
 /* Buttons */
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    align-self: center;
+    flex: 1 1 1;
+}
+
+.center {
+    text-align: center;
+}
 .btn{
     color: grey;
     text-decoration: none;
@@ -205,24 +220,198 @@
     padding:25px 0;
 }
 
+/* Codigo del Tercer Modelo */
+
+.nav-bar-gray {
+    background-color: rgb(245, 245, 245) ;
+    color: rgb(145, 145, 145);
+
+}
+.nav-bar-gray ul{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 30px;
+    list-style-type: none;
+
+}
+.nav-bar-gray a {
+    color: rgb(145, 145, 145);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor:pointer;
+}
+
 .card {
     height: fit-content;
     width: 300px;
-    padding: 20px;
+    padding: 0px 0px 0px 0px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2%;
+    border-color: #949292;
+    font-family: sans-serif;
+    margin: 20px 0px 30px;
+}
+.card h3 {
+    padding: 10px 5px 20px 5px;
 }
 
-.container {
+.card-simple .card-header{
+    height:100%;
+    padding: 15px 15px 15px 15px;
+    background-color: rgb(228, 228, 228);
+    border-bottom: 1px solid gray;
+}
+.card-simple h4 {
+    padding: 0px 0px 12px 0px;
+}
+.card-primary {
+    border-color: rgb(21, 138, 177);
+}
+.card-primary p {
+    color: rgb(59, 159, 192);
+}
+.card-secondary p {
+    color: gray;
+}
+.card-danger {
+    border-color: rgb(153, 34, 90);
+}
+.card-danger p {
+    color: rgb(153, 34, 90);
+}
+
+.card-header {
+    height:100%;
+    padding: 22px 15px 22px 15px;
+    background-color: rgb(228, 228, 228);
+    border-bottom: 1px solid gray;
+}
+.card-content {
+    padding: 15px 15px 15px 15px;
+}
+.card-footer {
+    padding: 20px 20px 20px;
+}
+.card-title {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 0px 5px;
+}
+.card-suptitle {
+    color: gray;
+    padding: 5px 0px 5px;
+    font-size: 18px;
+}
+
+.card-link {
+    color: #5198da;
+    text-decoration: none;
+    margin-right: 25px;
+    text-shadow: rgb(13, 51, 133) 0.5px 0.5px;
+}
+
+.card-link-active{
+    color: white;
+    border-color: #5198da;
+    background-color: #5198da;
+    text-decoration: none;
+    margin-right: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+    padding: 8px 10px 8px 10px;
+    transition: all .5s ease-in-out;
+    text-shadow: rgb(13, 51, 133) 0.5px 0.5px;
+}
+
+/* ? Cards: Leonel, Alejandro y Luis.  */
+
+ /*
+.card-menu{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.item {
-    align-self: center;
-    flex: 1 1 1;
+.card {
+    border: 3px solid #EFEFEF;
+    border-radius: 8px;
 }
 
-.center {
+.simple-cards{
+    display: flex;
+    gap: 1rem;
+}
+
+.mini-card{
+    overflow: hidden;
+}
+
+.card-primary{
+    border: 1px solid turquoise;
+}
+
+.card-danger{
+    border: 1px solid red;
+}
+
+.header{
+    display: flex;
+    background: rgb(231, 231, 231);
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #EFEFEF;
+    border-radius: 8px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 1rem 1rem;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(95, 95, 223);
+}
+
+
+.btn-blue{
+    background-color: #3473E0;
+    color: white;
+    margin-top: 0;
+}
+
+.btn-active {
+    background-color: #3473E0;
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text{
+    margin-top: 0;
+    padding: 0 2rem;
     text-align: center;
 }
+
+.text-blue{
+    color: turquoise;
+}
+
+.text-red{
+    color: red;
+}
+/*
