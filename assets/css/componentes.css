@@ -3,129 +3,162 @@
     color: grey;
     text-decoration: none;
     font-family: sans-serif;
-    font-weight: 500;
-    margin: 2rem .5rem;
-    padding: 1rem 2rem;
-    border-radius: 5px;
+    font-size: 13px;
+    margin: 8px 4px;
+    padding: 0.5rem 1rem; 
+    border-radius: 6px;
     cursor: pointer;
     border:none;
+    transition: all .5s ease-in-out;
 }
-.btn-light{
-    color: grey;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-weight: 500;
-    margin: 2rem .5rem;
-    padding: 1rem 2rem;
-    border-radius: 5%;
-    cursor: pointer;
-    border:none;
+
+.btn:hover{
+    transform: scale(1.1);
 }
+
+
+
 .btn-white{
     color: rgb(37, 37, 37);
     background-color: white;
 }
+
 .btn-light{
     color: rgb(37, 37, 37);
     background-color: hsl(270deg 11% 96%);
 }
+
 .btn-dark{
     color: rgb(255, 255, 255);
     background-color: hsl(300deg 2% 22%);
 }
+
 .btn-black{
     color: rgb(255, 255, 255);
     background-color: rgb(10, 10, 10);
 }
+
 .btn-text{
     color: rgb(44, 43, 43);
     text-decoration:underline;
     background-color: transparent !important;
 }
+
 /* Segunda parte */
+
 .btn-primary{
     color: rgb(255, 255, 255);
+   
     background-color: hsl(171deg 97% 42%);
 }
+
+
+
 .btn-link{
-    color: rgb(248, 248, 248);
+    color: rgb(248, 248, 248);   
     background-color: hsl(218deg 70% 54%);
 }
+
 .btn-info{
-    color: rgb(255, 254, 254);
+    color: rgb(255, 254, 254);   
     background-color: hsl(205deg 64% 53%);
 }
+
 .btn-succes{
-    color: rgb(253, 253, 253);
+    color: rgb(253, 253, 253);    
     background-color: hsl(142deg 54% 53%);
 }
+
 .btn-warning{
-    color: rgb(8, 8, 8);
+    color: rgb(8, 8, 8);    
     background-color: hsl(48deg 100% 67%);
 }
+
 .btn-danger{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);   
     background-color: hsl(348deg 87% 61%);
 }
+
+
 /* Tercera parte */
+
+
 .btn-primary-light{
-    color: hsl(171deg 97% 42%);
-    background-color: #ECFDFD;
+    color: hsl(171deg 97% 42%); 
+   
+    background-color: #ecfdfd;
 }
+
+
+
 .btn-link-light{
-    color: hsl(218deg 70% 54%);
-    background-color: #F1F2FE;
+    color: hsl(218deg 70% 54%);   
+    background-color: #f1f2fe;
 }
+
 .btn-info-light{
-    color: hsl(205deg 64% 53%);
-    background-color: #EFF6FD;
+    color: hsl(205deg 64% 53%);   
+    background-color: #eff6fd;
 }
+
 .btn-succes-light{
-    color: hsl(142deg 54% 53%);
-    background-color: #F0F9F3;
+    color: hsl(142deg 54% 53%);    
+    background-color: #f0f9f3;
 }
+
 .btn-warning-light{
-    color: rgb(240, 196, 22);
-    background-color: #FFFAEB;
+    color: rgb(240, 196, 22);    
+    background-color: #fffaeb;
 }
+
 .btn-danger-light{
-    color: hsl(348deg 87% 61%);
-    background-color: #FFEAF2;
+    color: hsl(348deg 87% 61%);   
+    background-color: #ffeaf2;
 }
+
 /* Cuarta parte */
+
+
 .btn-small{
-    font-size: 1.5rem;
-    color: rgb(10, 10, 10);
+    font-size: 12px;
+    color: rgb(10, 10, 10); 
     border: solid .1rem rgb(53, 52, 52);
     background-color: white;
 }
+
+
+
 .btn-default{
-    font-size: 1.5rem;
-    color: rgb(10, 10, 10);
+    font-size: 13px;
+    color: rgb(10, 10, 10);    
     border: solid .1rem rgb(53, 52, 52);
     background-color: white;
 }
+
 .btn-normal{
-    font-size: 1.8rem;
+    font-size: 16px;
     font-weight: 400;
-    color: rgb(10, 10, 10);
+    color: rgb(10, 10, 10);    
     border: solid .1rem rgb(53, 52, 52);
     background-color: white;
 }
+
 .btn-medium{
-    font-size: 2rem;
+    font-size: 20px;
     font-weight: 500;
     color: rgb(10, 10, 10);
-    border: solid .1rem rgb(53, 52, 52);
-    background-color: white;
+    border: solid .1rem rgb(53, 52, 52); 
+    background-color: white;    
+  
 }
+
 .btn-large{
-    font-size: 2.3rem;
-    font-weight: 700;
-    color: rgb(10, 10, 10);
+    font-size: 25px;
+    color: rgb(10, 10, 10); 
     border: solid .1rem rgb(53, 52, 52);
     background-color: white;
 }
+
 
 /* Labels */
 
