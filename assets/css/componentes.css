@@ -4,6 +4,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 30px 30px 30px 30px;
 }
 
 .item {
@@ -315,6 +316,7 @@
     text-decoration: none;
     margin-right: 25px;
     text-shadow: rgb(13, 51, 133) 0.5px 0.5px;
+    cursor: pointer;
 }
 
 .card-link-active{
