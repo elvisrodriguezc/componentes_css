@@ -169,10 +169,6 @@
     background-color: rgb(250, 212, 216);
     color: rgb(95, 29, 32);
 }
-.title-1 {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-}
 
 .menu {
     padding:25px 0;
@@ -198,73 +194,4 @@
 
 .center {
     text-align: center;
-}
-/* Codigo del Tercer Modelo */
-
-.title-3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: x-large;
-    text-align: left;
-}
-.container-2 {
-    margin: 0 15%;
-}
-
-.nav-bar-gray {
-    background-color: rgb(245, 245, 245) ;
-    color: rgb(145, 145, 145);
-
-}
-.nav-bar-gray ul{
-    display: flex;
-    flex-direction: row;
-    padding: 15px;
-    gap: 30px;
-    list-style-type: none;
-
-}
-.nav-bar-gray a {
-    color: rgb(145, 145, 145);
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    cursor:pointer;
-}
-
-.card-gray {
-    height: fit-content;
-    width: 300px;
-    padding: 25px;
-    border: solid;
-    border-radius: 3%;
-    border-width: 2px;
-    border-color: #c5c5c5;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.card-gray h1 {
-
-    font-size: x-large;
-    text-align: left;
-    margin: 0%;
-}
-.card-gray h2 {
-    color: rgb(153, 153, 153);
-    font-family: sans-serif;
-    text-align: left;
-    font-size: medium;
-    font-weight: lighter;
-    padding-top: 5px;
-    padding-bottom: 10px;
-}
-
-.card-gray p{
-    text-align: justify;
-}
-.card-gray div{
-    padding-bottom:20px ;
-}
-.card-gray a{
-
-    margin-right: 20px;
-    text-decoration: none;
-    color: #567FB5;
 }
